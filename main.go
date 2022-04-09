@@ -42,17 +42,17 @@ func readTtx() (dbPath string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	defer file.Close()
-
 	scanner := bufio.NewScanner(file)
+	scanner.Split(bufio.ScanLines)
+	var text []string
 	for scanner.Scan() {
-		dbPath = scanner.Text()
+		text = append(text, scanner.Text())
 	}
-
-	if err := scanner.Err(); err != nil {
-		log.Fatal(err)
-	}
-	return
+	file.Close()
+	//for _, each_ln := range text {
+	//	fmt.Println(each_ln)
+	//}
+	return text[0]
 }
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
