@@ -1,0 +1,36 @@
+.drop-zone { max-width: 200px; min-width: 200px; height: 200px; padding: 15px; display: flex; align-items: center; justify-content: center; text-align: center; font-family: "Quicksand", sans-serif; font-weight: 500; font-size: 20px; cursor: pointer; color: #cccccc; border: 4px dashed #009578; border-radius: 10px; }
+.drop-zone--over { border-style: solid; }
+.drop-zone__input { display: none; }
+.drop-zone__thumb { width: 100%; height: 100%; border-radius: 10px; overflow: hidden; background-color: #cccccc; background-size: cover; position: relative; }
+.drop-zone__thumb::after { content: attr(data-label); position: absolute; bottom: 0; left: 0; width: 100%; padding: 5px 0; color: #ffffff; background: rgba(0, 0, 0, 0.75); font-size: 14px; text-align: center; }
+
+.drop-zone-1 { max-width: 200px; min-width: 200px; height: 200px; padding: 15px; display: flex; align-items: center; justify-content: center; text-align: center; font-family: "Quicksand", sans-serif; font-weight: 500; font-size: 20px; cursor: pointer; color: #cccccc; border: 4px dashed #009578; border-radius: 10px; }
+.drop-zone-1--over { border-style: solid; }
+.drop-zone-1__input { display: none; }
+.drop-zone-1__thumb { width: 100%; height: 100%; border-radius: 10px; overflow: hidden; background-color: #cccccc; background-size: cover; position: relative; }
+.drop-zone-1__thumb::after { content: attr(data-label); position: absolute; bottom: 0; left: 0; width: 100%; padding: 5px 0; color: #ffffff; background: rgba(0, 0, 0, 0.75); font-size: 14px; text-align: center; }
+
+.drop-zone-2 { max-width: 200px; min-width: 200px; height: 200px; padding: 15px; display: flex; align-items: center; justify-content: center; text-align: center; font-family: "Quicksand", sans-serif; font-weight: 500; font-size: 20px; cursor: pointer; color: #cccccc; border: 4px dashed #009578; border-radius: 10px; }
+.drop-zone-2--over { border-style: solid; }
+.drop-zone-2__input { display: none; }
+.drop-zone-2__thumb { width: 100%; height: 100%; border-radius: 10px; overflow: hidden; background-color: #cccccc; background-size: cover; position: relative; }
+.drop-zone-2__thumb::after { content: attr(data-label); position: absolute; bottom: 0; left: 0; width: 100%; padding: 5px 0; color: #ffffff; background: rgba(0, 0, 0, 0.75); font-size: 14px; text-align: center; }
+
+.drop-zone-3 { max-width: 200px; min-width: 200px; height: 200px; padding: 15px; display: flex; align-items: center; justify-content: center; text-align: center; font-family: "Quicksand", sans-serif; font-weight: 500; font-size: 20px; cursor: pointer; color: #cccccc; border: 4px dashed #009578; border-radius: 10px; }
+.drop-zone-3--over { border-style: solid; }
+.drop-zone-3__input { display: none; }
+.drop-zone-3__thumb { width: 100%; height: 100%; border-radius: 10px; overflow: hidden; background-color: #cccccc; background-size: cover; position: relative; }
+.drop-zone-3__thumb::after { content: attr(data-label); position: absolute; bottom: 0; left: 0; width: 100%; padding: 5px 0; color: #ffffff; background: rgba(0, 0, 0, 0.75); font-size: 14px; text-align: center; }
+
+.drop-zone-4 { max-width: 200px; min-width: 200px; height: 200px; padding: 15px; display: flex; align-items: center; justify-content: center; text-align: center; font-family: "Quicksand", sans-serif; font-weight: 500; font-size: 20px; cursor: pointer; color: #cccccc; border: 4px dashed #009578; border-radius: 10px; }
+.drop-zone-4--over { border-style: solid; }
+.drop-zone-4__input { display: none; }
+.drop-zone-4__thumb { width: 100%; height: 100%; border-radius: 10px; overflow: hidden; background-color: #cccccc; background-size: cover; position: relative; }
+.drop-zone-4__thumb::after { content: attr(data-label); position: absolute; bottom: 0; left: 0; width: 100%; padding: 5px 0; color: #ffffff; background: rgba(0, 0, 0, 0.75); font-size: 14px; text-align: center; }
+
+.drop-zone-5 { max-width: 200px; min-width: 200px; height: 200px; padding: 15px; display: flex; align-items: center; justify-content: center; text-align: center; font-family: "Quicksand", sans-serif; font-weight: 500; font-size: 20px; cursor: pointer; color: #cccccc; border: 4px dashed #009578; border-radius: 10px; }
+.drop-zone-5--over { border-style: solid; }
+.drop-zone-5__input { display: none; }
+.drop-zone-5__thumb { width: 100%; height: 100%; border-radius: 10px; overflow: hidden; background-color: #cccccc; background-size: cover; position: relative; }
+.drop-zone-5__thumb::after { content: attr(data-label); position: absolute; bottom: 0; left: 0; width: 100%; padding: 5px 0; color: #ffffff; background: rgba(0, 0, 0, 0.75); font-size: 14px; text-align: center; }
+
