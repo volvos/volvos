@@ -5,3 +5,6 @@ th, td { padding: 15px; }
 .question { width: 700px; height: 300px;}
 
 .auto_height { width: 100%; }
+
+.section_hide { display: none; }
+.section_show { display: block; }
