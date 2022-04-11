@@ -53,7 +53,7 @@ func main() {
 }
 
 func readTtx() (dbPath string) {
-	file, err := os.Open("./gitignore/db.txt")
+	file, err := os.Open("./.gitignore/db.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
