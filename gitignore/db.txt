@@ -1,2 +1,0 @@
-root:sanane76?@tcp(127.0.0.1:3306)/math
-root:sanane76?@tcp(127.0.0.1:3306)
